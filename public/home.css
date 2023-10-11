@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.w-100{
+    width: 100%;
+}
+.details{
+    display: flex;
+}
+.w-33{
+    width: 33%;
+    font-size: 20px;
+}
+.w-1140{
+    width: 1280px;
+    margin: 0px 50px;
+    margin: auto;
+}
+.color{
+    color:white;
+}
+.fa-solid{
+    padding-right: 5px;
+}
+a.color.n {
+    text-decoration: none;
+}
+.n{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.left{
+    text-align: end;
+}
+.center{
+    text-align: center  ;
+}
+.py{
+    padding: 10px 0px; 
+}
+
+.pt{
+    padding: 15px 0px;
+}
+.img{
+    /* background-image: url(images/bg.jpg); */
+    width: 100%;
+    height: 700px;
+    background-position: -200px 0px;
+    position: relative;
+}
+.ptf{
+    padding-top: 100px;
+}
+.main-bg{
+    background-color: black;
+}
+.tit p{
+    font-family: "Barlow Condensed", arial ;
+    font-weight: 700;
+    font-size: 50px;
+}
+.tit1{
+    font-family: "Barlow Condensed", arial ;
+    color: transparent !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-weight: 800;
+    font-size: 40px;
+}
+.tit1 p{
+    letter-spacing: 2px;
+}
+.img2{
+    background-image: url(images/cars.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.pr{
+    position: relative;
+}
+.w-70{
+    width: 60%;
+}
+.flex{
+    display: flex;
+}
+.w-30{
+    width: 40%;
+}
+.img1{
+    background-image: url(images/buy.png);
+    height: 38px;
+    width: 32px;
+    position: absolute;
+    z-index: 1;
+    left: 140px;
+    top: 431px;
+}
+.square{
+    border: 1px solid #cacaca;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    position: relative;
+    /* border: 1px solid black; */
+}
+.pu{
+    padding-top: 100px;
+}
+.buy-tit{
+    font-family: "Barlow Condensed", arial ;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+.img3{
+    background-image: url(images/time.png);
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    z-index: 1;
+    left: 363px;
+    top: 434px;
+}
+.padl{
+    padding-left: 101px;
+}
+.img4{
+    background-image: url(images/cus.png);
+    position: absolute;
+    z-index: 1;
+    height: 36px;
+    width: 36px;
+    left: 137px;
+    top: 541px;
+}
+.img5{
+    background-image: url(images/jj.png);
+    position: absolute;
+    z-index: 1;
+    height: 38px;
+    width: 34px;
+    left: 366px;
+    top: 544px;
+}
+.padul{
+    padding-top: 40px;
+}
+.know {
+    margin-top: 50px;
+}
+.know input{
+    font-family: "Barlow Condensed", arial;
+    color: black;
+}
+input[type="button"] {
+    width: 60%;
+    height: 50px;
+    background-color: transparent;
+    font-size: 18px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+}
+.know a:hover input{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.bgc{
+    background-color: black;
+}
+.w30{
+    width: 40%;
+}
+.title-1{
+    color: white;
+    font-family: "Barlow Condensed", arial;
+    font-size: 34px;
+    font-weight: 900;
+}
+.img-icon{
+    height: 60px;
+    width: 60px;
+    background-color: #2f2f2f;
+    border-radius: 15px;
+    position: relative;
+}
+.ic{
+    background-image: url(images/review.png);
+    position: absolute;
+    z-index: 999;
+    height: 27px;
+    width: 1.8%;
+    top: 2546px;
+    left: 137px;
+}
+.pm{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: Barlow, arial;
+}
+.ic1{
+    background-image: url(images/service.png);
+    position: absolute;
+    z-index: 999;
+    height: 27px;
+    width: 2.2%;
+    top: 2615px;
+    left: 134px;
+}
+.img-icon1{
+    height: 60px;
+    width: 60px;
+    background-color: #2f2f2f;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 10px;
+}
+.pm1{
+    padding-top: 33px;
+    padding-left: 10px;
+    font-family: Barlow, arial;
+}
+.ic2{
+    background-image: url(images/more.png);
+    position: absolute;
+    z-index: 999;
+    height: 32px;
+    width: 1.8%;
+    top: 2682px;
+    left: 137px;
+}
+.op{
+    opacity: .5;
+}
+.pm2{
+    color: white;
+    padding-left: 10px;
+    padding-top: 33px;
+}
+.w60{
+    width: 60%;
+    position: relative;
+}
+.img-upload{
+    background-image: url(images/mentroz.jpg);
+    width: 78%;
+    height: 400px;
+    background-size: contain;
+    position: absolute;
+    top: -492px;
+    left: 694px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+input.btn {
+    margin-top: 65px;
+    font-family: "Barlow Condensed", arial;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 80px;
+}
+.s-title{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.s-title h3{
+    font-size: 22px;
+    font-family: "Barlow Condensed", arial;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+.s-title h1{
+    font-family: "Barlow Condensed", arial;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.b30{
+    width: 30%;
+}
+.car-details p{
+    font-family: "Barlow Condensed", arial;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+.cc{
+    margin-top: 20px;
+}
+.car-details h6{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Barlow Condensed", arial;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #989191;
+}
+.car-p{
+    padding-left: 40px;
+    text-align: center;
+}
+
+.font{
+    font-family: "Barlow Condensed", arial;
+}
+.about-details{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 100;
+    padding-top: 100px;
+}
+.about{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.50;
+    padding-top: 15px;
+}
+.w25{
+    width: 25%;
+}
+.photo{  
+    background-image: url(images/001.png);
+    width: 50%;
+    height: 185px;
+}
+.photo1{  
+    background-image: url(images/002.png);
+    width: 64%;
+    height: 185px;
+}
+.photo2{  
+    background-image: url(images/003.png);
+    width: 44%;
+    height: 185px;
+}
+.photo3{  
+    background-image: url(images/004.png);
+    width: 40%;
+    height: 185px;
+}
+.showroom{
+    padding-top: 50px;
+    padding-left: 71px;
+}
+.font-img{
+    padding: 10px 100px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.font-img p{
+    font-size: 40px;
+    font-weight: 600;
+}
+.wallpaper{
+    background-image: url(images/Wall.jpg);
+    width: 89%;
+    height: 665px;
+    margin: auto;
+    border-radius: 10px;
+}
+.w24{
+    width: 24%;
+
+}
+.footer{
+    padding-top: 50px;
+}
+.w-24 ul li{
+    padding-bottom: 5px;
+}
+.w-24{
+    padding-left: 85px;
+}
+.w-24 ul a:hover li
+{
+    color: white;
+}
+.letter{
+    letter-spacing: 2px; 
+    padding-top: 30px;
+    padding-left: 68px;
+}
+.letter h5{
+    font-weight: 300;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 50px;
+}
+.home-in{
+    position: absolute;
+    top: 77px;
+    right: 90px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.first{
+    position: absolute;
+    top: 360px;
+    left: 100px;
+    font-size: 46px;
+    font-weight: 500;
+    z-index: 999;
+}
+.second{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 50;
+    opacity: 0.8;
+    z-index: 999;
+}
+.for-contact{
+    position: absolute;
+    top: 100px;
+    left: 1111px;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 999;
+    color: white;
+}
+.search{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    border: 0;
+    z-index: 999;
+
+}
+.search input {
+    width: 150%;
+    border: transparent;
+    border-bottom: 1px solid rgb(161, 165, 161);
+    background: transparent;
+    outline: 0;
+    font-size: 30px;
+}
+.inq-pad{
+    padding-right:50px ;
+}
+.inq-sub input{
+    width: 100px;
+    height: 30px;
+}
+.inq-sub{
+    margin-top: 15px;
+}
+.color-2{
+    color: #000;
+}
+.inq-sub input:hover {
+    background-color: white;
+    color: black;
+} 
+.rat input{
+    font-size: 20px;
+    width: 50px;
+    margin-left: 10px;
+    color: white;
+}
+.text-form{
+    margin-left: 50px;
+}
+.text-form input{
+    width: 180%;
+}
+.letter p {
+    padding-top: 10px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/all.min.css">
+    <style>
+        body {
+            background-color: rgb(208, 218, 191);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w100">
+        <div class="flex">
+            <div class="box1">
+                <div class="box2">
+                    <form class="img" action="/signup" method="post" onsubmit="data(event)">
+                        <div class="box">
+                            <div class="sp">
+                                <!-- <span> Haven an account? <a href="">create new account?</a></span> -->
+                                <h1 contenteditable="true"> sign up</h1>
+
+
+                                <div class="log">
+                                    <i class="fa-solid fa-person"></i>
+                                    <input type="text" class="input" placeholder="Enter Name" name="name" required>
+                                    <p id="user-not"></p>
+                                </div>
+                                <div class="log choose-car">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input type="text" class="input" placeholder="Enter Username" name="username"
+                                        required>
+                                </div>
+                                <div class="log">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                    <input maxlength="10" minlength="10" type="tel" class="input"
+                                        placeholder="Mobile No" name="mobile" id="mobiles" required>
+                                    <p id="mobile-not"></p>
+
+                                </div>
+                                <div class="log">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <input type="text" class="input" placeholder="City" name="city" required>
+                                    <p id="city-not"></p>
+
+                                </div>
+
+
+                                <div class="log">
+                                    <input type="submit" class="submit" value="sign in" style="color: white;">
+                                </div>
+                                <div class="bottam">
+                                    <div class="left">
+                                        <input type="checkbox" name="" id="check">
+                                        <label for="check">Remember me</label>
+                                    </div>
+
+                                    <div class="right">
+                                        <label><a href=""> Forgot password?</a></label>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+<script>
+
+</script>
+
+
+</html>

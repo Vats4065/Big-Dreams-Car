@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&');
+
+
+
+
+/* common css */
+
+
+
+body {
+    transition: all 0.5s ease-out;
+    font-family: ' Barlow Condensed', sans-serif';
+
+}
+
+.w-30 {
+    max-width: 30%;
+}
+
+.w-70 {
+    max-width: 70%;
+}
+
+.text-barlow {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.w-20 {
+    max-width: 20%;
+}
+
+.w-40 {
+    max-width: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/* header css */
+
+header {
+    background-color: #000;
+    padding: 18px 0px;
+}
+
+.logo{
+    font-size: 50px;
+    padding-left: 103px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0px 18px;
+    font-size: 16px;
+}
+
+nav a img {
+    width: 18px;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-right: 8px;
+}
+
+nav span {
+    color: white;
+}
+
+.navtrigger {
+    width: 30px;
+    height: 27px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.navtrigger:before {
+    content: "";
+    position: absolute;
+    top: 67%;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+
+}
+
+.navtrigger:after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    transform: translateY(-50%);
+    width: 70%;
+    height: 2px;
+    background-color: #bababa;
+}
+
+
+
+/* detail-nav css */
+.detail-nav {
+    padding: 20px;
+    background-color: #f4f4f4;
+    /* position: fixed; */
+    width: 100%;
+
+}
+
+.name-prices h5 {
+    color: #000;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.name-prices .price {
+    color: #000;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.name-prices .price:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    margin: 0;
+    margin-right: 5px;
+    background-image: url(https://cdn.bigboytoyz.com/new-version/assets/images/rupees-symbol.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.emiprice {
+    text-transform: uppercase;
+    color: #8a8a8a;
+    line-height: 2.133;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.certified-modelkmsfuel ul {
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.certified-modelkmsfuel ul>li {
+    display: flex;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+.certified-modelkmsfuel ul>li .key {
+    padding-right: 12px;
+    min-width: 85px;
+    color: #565655;
+
+}
+
+.certified-modelkmsfuel ul>li .key {
+    padding-right: 12px;
+    min-width: 85px;
+}
+
+
+.certified-modelkmsfuel ul>li .val {
+    position: relative;
+    overflow: hidden;
+    color: black;
+}
+
+.certified-modelkmsfuel ul>li .val:before {
+    content: ":";
+    margin-right: 20px;
+    color: black;
+}
+
+.cardetail-infohead-btns {
+    align-self: center;
+
+    /* padding: 8px 10px;
+    margin: 0 2px; */
+
+}
+
+.cardetail-infohead-btns button {
+    cursor: pointer;
+    display: inline-block;
+    color: #313131;
+    font-family: "Barlow Condensed", arial;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    transition: all .3s ease-in-out;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 12px;
+    margin: 0 2.5px;
+}
+
+
+
+/* .emibtn {
+    padding-left: 10px;
+    padding-right: 10px;
+
+} */
+
+button:before {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: block;
+    margin: 0 auto 4px;
+}
+
+.emibtn:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url('https://cdn.bigboytoyz.com/new-version/assets/images/calculator-icon.png');
+}
+
+.comparebtn:before {
+    content: "";
+    width: 15px !important;
+    height: 15px;
+    background-image: url('https://cdn.bigboytoyz.com/new-version/assets/images/careerbtn-plusicon.png');
+}
+
+.reservebtn {
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 13px 18px;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    border: #000 1px solid;
+    border-radius: 15px;
+    /* padding: 19px 28px; */
+    margin: 0 10px;
+    width: auto;
+    min-width: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.reservebtn:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+
+.carousel-item {
+    height: 100%;
+
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel span {
+    background-color: black;
+    opacity: 4;
+    padding: 20px;
+    border-radius: 100%;
+    color: #000;
+}
+
+.car-summary {
+    font-family: "Barlow Condensed", arial;
+    border-bottom: #26232356 1px solid;
+
+}
+
+.summary-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", arial;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.title p {
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", arial;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.img-box {
+    height: 52px;
+    width: 52px;
+    padding: 12px 1px;
+    border: #00000075 solid 1px;
+    text-align: center;
+    border-radius: 10px;
+    /* display: inline;      */
+
+}
+
+.summary-list strong,
+p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.summary-list-box {
+    padding: 20px 15px;
+    margin: 8px;
+}
+
+/* car-feature section css */
+
+.car-feature ul {
+    font-family: "Barlow Condensed", arial;
+    font-size: 14px;
+    color: #00000097;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.car-feature li {
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.car-feature ul>li:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    width: 10px;
+    height: 8px;
+    background-image: url(https://cdn.bigboytoyz.com/new-version/assets/images/history-listchecked-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.car-feature #more li:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    width: 10px;
+    height: 8px;
+    background-image: url(https://cdn.bigboytoyz.com/new-version/assets/images/history-listchecked-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.car-feature #myBtn {
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s;
+}
+
+#more {
+    display: none;
+}
+
+/* footer css */
+.dark {
+    background-color: #000;
+    font-family: "Barlow Condensed", arial;
+}
+
+.footer-title {
+    padding: 0px 0px 8px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eeeeee56;
+}
+
+.footer-title h2 {
+    font-size: 16px;
+}
+
+.fr {
+    border-bottom: 1px solid #ffffff6e;
+}
+
+footer ul li {
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 5px 0px;
+    font-weight: 400;
+
+}
+
+footer a {
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff71;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+
+    :hover {
+        opacity: .5;
+    }
+}
+
+footer .col-7 ul {
+    columns: 4;
+}
+
+.sr p {
+    color: #fff;
+}
+
+.copyr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Barlow Condensed", arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    white-space: normal;
+    font-size: 10px;
+}
+
+.copyr ul li {
+    position: relative;
+    margin-left: 10px;
+}
